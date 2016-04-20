@@ -9,7 +9,6 @@ public class Producto {
 	int stock_minimo;
 	int stock_maximo;
 	
-	
 	public Producto (String nombre, int stock_minimo, int stock_maximo, Categoria categoria){
 		this.categoria = categoria;
 		this.nombre = nombre;
